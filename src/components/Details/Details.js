@@ -7,8 +7,6 @@ function Details() {
 
     const data = location.state.data;
 
-    console.log('-----location------', location);
-
     return (
         <div>
             <h1>Category: {data.category}</h1>

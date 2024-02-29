@@ -78,7 +78,6 @@ function DynamicForm() {
         setGridData([...filteredData]);
     };
 
-
     return (
         <div>
 
@@ -131,8 +130,8 @@ function DynamicForm() {
                 ))}
             </div>
 
-        </div >
-    )
+        </div>
+    );
 }
 
 export default DynamicForm;
